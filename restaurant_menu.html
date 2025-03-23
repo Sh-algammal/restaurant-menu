@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shadow restaurant</title>
+        <style>
+           
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+
+            #header-img {
+                width: 150px; 
+                height: auto;
+                display: block;
+                margin: 0 auto; 
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="header-img.webp" alt="header-img" id="header-img">
+            <h1>Shadow restaurant</h1>
+            <nav>
+                <a href="#menu">menu</a>
+                <a href="#order-form">order-form</a>
+            </nav>
+        </header>
+        <main>
+            <section id="menu">
+                <h2>Menu</h2>
+                <article>
+                    <img src="Grilled Steak with Garlic Butter.jpg" alt="Grilled Steak with Garlic Butter">
+                    <h3>Grilled Steak with Garlic Butter</h3>
+                    <p>A juicy, tender steak grilled to perfection and topped with rich garlic butter, served with a side of roasted vegetables. <i>$24.99</i></p>
+                </article>
+                <article>
+                    <img src="Creamy Truffle Pasta.jpg" alt="Creamy Truffle Pasta">
+                    <h3>Creamy Truffle Pasta</h3>
+                    <p>Delicate fettuccine tossed in a luxurious truffle-infused cream sauce, garnished with parmesan and fresh herbs. <i>$18.99</i></p>
+                </article>
+                <article>
+                    <img src="Classic Margherita Pizza.jpg" alt="Classic Margherita Pizza">
+                    <h3>Classic Margherita Pizza</h3>
+                    <p>A traditional Italian pizza topped with fresh mozzarella, vine-ripened tomatoes, and fragrant basil on a crispy, thin crust. <i>$14.99</i></p>
+                </article>
+            </section>
+            <section id="order-form">
+                <h2>Place Your Order</h2>
+                <form action="">
+                    <label>Grilled Steak with Garlic Butter: <input type="number" value="0" min="0"></label><br><br>
+                    <label>Special Requests:
+                        <textarea rows="3" cols="30" placeholder="Any special requests"></textarea>
+                    </label>
+                    <br><br>
+                    <label>Creamy Truffle Pasta: <input type="number" value="0" min="0"></label><br><br>
+                    <label>Special Requests:
+                        <textarea rows="3" cols="30" placeholder="Any special requests"></textarea>
+                    </label>
+                    <br><br>
+                    <label>Classic Margherita Pizza: <input type="number" value="0" min="0"></label><br><br>
+                    <label>Special Requests:
+                        <textarea rows="3" cols="30" placeholder="Any special requests"></textarea>
+                    </label>
+                    <br><br>
+                    <label><input type="checkbox" name="sauce" value="ketchup"> Ketchup</label>
+                    <label><input type="checkbox" name="sauce" value="mayonnaise"> Mayonnaise</label>
+                    <br><br>
+                    <input type="submit" value="Go To Checkout">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Made with love by <strong>@Sh-algammal</strong></p>
+        </footer>
+        
+    </body>
+</html>
